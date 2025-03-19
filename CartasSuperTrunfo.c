@@ -4,7 +4,7 @@ int main(){
     char Estado = 'A'; //declara uma variavel Estado do tipo char
     char cod[4] = "A01"; //declara uma variavel cod do Tipo char string
     char NomeCidade[12]; //declara uma variavel NomeCidade do Tipo string
-    int população; //declara uma variavel população do Tipo Int
+    int populacao; //declara uma variavel população do Tipo Int
     float area; //declara uma variavel area do Tipo Float
     float pib; //declara uma variavel pib do Tipo Float
     int turistico; //declara uma variavel turistico do tipo Int
@@ -23,7 +23,7 @@ int main(){
     scanf("%s",NomeCidade);
 
     printf("Defina sua população:\n "); // Passo 4 - Indicar o tamanho de sua população
-    scanf("%d",&população);
+    scanf("%d",&populacao);
 
     printf("Quantos KM tem sua cidade?\n "); //Passp 5 - Indicar a area de sua cidade
     scanf("%f", &area);
@@ -34,7 +34,7 @@ int main(){
     printf("Quantos pontos turísticos sua cidade tem?\n "); //Passo 7 - Indicar quantos pontos turisticos sua cidade tem
     scanf("%d", &turistico);
 
-    printf("Carta 1: Estado: %c :Inicial: %3s :Cidade: %s :População: %d :Area: %f :Pib: %f :Pontos Turisticos: %d\n\n",Estado, cod, NomeCidade, população, area, pib, turistico);
+    printf("Carta 1: Estado: %c :Inicial: %3s :Cidade: %s :População: %d :Area: %f :Pib: %f :Pontos Turisticos: %d\n\n",Estado, cod, NomeCidade, populacao, area, pib, turistico);
 
 
     printf("Carta 2\n");
@@ -49,7 +49,7 @@ int main(){
     scanf("%s",NomeCidade);
 
     printf("Defina sua população:\n "); // Passo 4 - Indicar o tamanho de sua população
-    scanf("%d",&população);
+    scanf("%d",&populacao);
 
     printf("Quantos KM tem sua cidade?\n "); //Passp 5 - Indicar a area de sua cidade
     scanf("%f", &area);
@@ -60,7 +60,7 @@ int main(){
     printf("Quantos pontos turísticos sua cidade tem?\n "); //Passo 7 - Indicar quantos pontos turisticos sua cidade tem
     scanf("%d", &turistico);
 
-    printf("Carta 2: Estado: %c :Inicial: %3s :Cidade: %s :População: %d :Area: %f :Pib: %f :Pontos Turisticos: %d",Estado, cod, NomeCidade, população, area, pib, turistico);
+    printf("Carta 2: Estado: %c :Inicial: %3s :Cidade: %s :População: %d :Area: %f :Pib: %f :Pontos Turisticos: %d",Estado, cod, NomeCidade, populacao, area, pib, turistico);
 
 return 0;
 
